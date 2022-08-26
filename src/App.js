@@ -1,12 +1,12 @@
 //App.js
 import { Authenticator } from '@aws-amplify/ui-react';
 
-import { Protected } from 'src\component\Protected.js';
+import { Protected } from './component/Protected';
 import { RequireAuth } from './RequireAuth';
-import { Login } from './components/Login';
-import { ProtectedSecond } from './components/ProtectSecond';
-import { Home } from './components/Home';
-import { Layout } from './components/Layout';
+import { Login } from './component/login';
+import { ProtectedSecond } from './component/ProtectSecond';
+import { Home } from './component/Home';
+import { Layout } from './component/Layout';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
