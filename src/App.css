@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+  overflow: hidden
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -48,6 +48,10 @@ nav {
   justify-content: center;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+body {
+  overflow: hidden
 }
 
 .auth-wrapper {
